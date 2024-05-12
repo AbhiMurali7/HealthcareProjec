@@ -1,0 +1,29 @@
+{
+  "LoginPage": {
+    "makeAppointmentButton": "#btn-make-appointment",
+    "usernameInput": "input[id='txt-username']",
+    "passwordInput": "input[name='password']",
+    "loginButton": "button[type='submit']",
+    "errorMessage": "p.lead.text-danger",
+    "pageTitle": "//h2[text()='Make Appointment']"
+  },
+  "AppointmentPage":{
+    "dropDown":"#combo_facility",
+    "checkBox":"#chk_hospotal_readmission",
+    "radioButton":"#radio_program_none",
+    "datePicker":"#txt_visit_date",
+    "textComment":"#txt_comment",
+    "submitButton":"#btn-book-appointment"
+  },
+
+   "ConfirmationPage":{
+    "successMessage":  "//h2[text()='Appointment Confirmation']",
+    "facilityVal": "#facility",
+    "checkBoxVal": "#hospital_readmission",
+    "radioButtonVal": "#program",
+    "datePickerVal": "//p[@id='visit_date']",
+    "commentVal": "//p[@id='comment']"
+   }
+
+
+}

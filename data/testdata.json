@@ -1,0 +1,25 @@
+{
+    "test1": {
+      "dropdown": "Tokyo CURA Healthcare Center",
+      "radioButton": "Medicare",
+      "date": "12/05/2024",
+      "expectedDate": "05/12/2024",
+      "textComment": "test"
+    },
+    "test2": {
+      "dropdown": "Hongkong CURA Healthcare Center",
+      "radioButton": "Medicare",
+      "date": "09/07/2024",
+      "expectedDate": "07/09/2024",
+      "textComment":""
+    },
+    "test3": {
+        "dropdown": "Seoul CURA Healthcare Center",
+        "radioButton": "None",
+        "date": "11/03/2024",
+        "expectedDate": "03/11/2024",
+        "textComment":"Past Booking"
+      }
+
+   
+  }

@@ -1,0 +1,28 @@
+{
+  "name": "healthcareproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "play-chrome":"npx playwright test --project=chrome",
+    "play:test": "npx playwright test",
+    "play:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "test-a": "npx playwright test -g @book",
+    "test-l": "npx playwright test -g @login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhiMurali7/HealthcareProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbhiMurali7/HealthcareProject/issues"
+  },
+  "keywords": [],
+  "author": "AbhiMurali",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.8"
+  }
+}

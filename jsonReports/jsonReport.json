@@ -1,0 +1,181 @@
+{
+  "config": {
+    "configFile": "/Users/abinayamurali/VSStudio/HealthcareProject/playwright.config.ts",
+    "rootDir": "/Users/abinayamurali/VSStudio/HealthcareProject/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/abinayamurali/VSStudio/HealthcareProject/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/abinayamurali/VSStudio/HealthcareProject/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.43.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "testSuite1.test.spec.ts",
+      "file": "testSuite1.test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Booking Appointment @book",
+          "file": "testSuite1.test.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Positive: Navigate to the appointment booking page and Check if the appointment details are displayed in the appointment history. ",
+              "ok": true,
+              "tags": [
+                "book"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-12T11:21:24.897Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ac99409196da126b38eb-e218a515722e5cfe45d3",
+              "file": "testSuite1.test.spec.ts",
+              "line": 17,
+              "column": 10
+            },
+            {
+              "title": "Negative: Booking the Appointment on past date",
+              "ok": true,
+              "tags": [
+                "book"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5885,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "03/11/2024\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-12T11:21:25.113Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/abinayamurali/VSStudio/HealthcareProject/test-results/testSuite1.test-Booking-Ap-e6de7-he-Appointment-on-past-date-chromium/test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/abinayamurali/VSStudio/HealthcareProject/test-results/testSuite1.test-Booking-Ap-e6de7-he-Appointment-on-past-date-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/abinayamurali/VSStudio/HealthcareProject/test-results/testSuite1.test-Booking-Ap-e6de7-he-Appointment-on-past-date-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ac99409196da126b38eb-7e549f0ee097e9cf83aa",
+              "file": "testSuite1.test.spec.ts",
+              "line": 47,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-05-12T11:21:24.880Z",
+    "duration": 6640.915,
+    "expected": 1,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
